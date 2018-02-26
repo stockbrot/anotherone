@@ -1,45 +1,92 @@
-# electron-quick-start
+<p align="center">
+  <img src="img/header.png">
+</p>
 
-**Clone and run for a quick way to see Electron in action.**
+[![GitHub release](https://img.shields.io/github/release/stockbrot/anotherone.svg?style=flat-square)](https://github.com/stockbrot/anotherone/releases/latest)
+[![David-DM](https://david-dm.org/stockbrot/anotherone.svg?style=flat-square)](https://david-dm.org/stockbrot/anotherone)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/stockbrot/anotherone/latest.svg?style=flat-square)](https://github.com/stockbrot/anotherone/commits/master)
+[![](https://img.shields.io/github/issues-raw/stockbrot/anotherone.svg?style=flat-square)](https://github.com/stockbrot/anotherone/issues)
+[![Github All Releases](https://img.shields.io/github/downloads/stockbrot/anotherone/total.svg)]()
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
+Description
 
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
+## Changelog
 
-A basic Electron application needs just these files:
+## Getting Started
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+Download the [latest Release](https://github.com/stockbrot/anotherone/releases/latest) to get started quickly.
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
+### Prerequisites
 
-## To Use
+(Only download from trusted sources)
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Other requirements (optional):
+* [Node.JS](https://nodejs.org/en/download/)
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
+
+### Installing
+
+Download the [latest Release](https://github.com/masgui/masgui/releases/latest) or:
+
+To build the app on your machine:
+
+
+```
+git clone https://github.com/stockbrot/anotherone.git
+cd anotherone
+npm i
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+Run test build
 
-## Resources for Learning Electron
+```
+In Directory: ../anotherone/
+npm run start
+```
 
-- [electron.atom.io/docs](http://electron.atom.io/docs) - all of Electron's documentation
-- [electron.atom.io/community/#boilerplates](http://electron.atom.io/community/#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+## Deployment
 
-## License
+Package App for the OS you are running on
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+```
+In Directory: ../anotherone/
+npm run dist
+```
+(Refer to [electron-builder](https://github.com/electron-userland/electron-builder) for use of "npm run dist")
+
+## Troubleshooting
+
+For now, no errors or issues have been reported.
+If you encounter anything please post it to the [issue tracker](https://github.com/masgui/masgui/issues)
+
+## Built With
+
+* [Electron ](https://electronjs.org/) [![GitHub release](https://img.shields.io/github/release/electron/electron.svg?style=flat-square)](https://github.com/electron/electron/releases/latest)
+* [Electron Builder ](https://github.com/electron-userland/electron-builder) [![GitHub release](https://img.shields.io/github/release/electron-userland/electron-builder.svg?style=flat-square)](https://github.com/electron-userland/electron-builder/releases/latest)
+* [Vue.js ](https://vuejs.org/) [![GitHub release](https://img.shields.io/github/release/vuejs/vue.svg?style=flat-square)](https://github.com/vuejs/vue/releases/latest)
+* [Bootstrap ](https://getbootstrap.com/) [![GitHub release](https://img.shields.io/github/release/twbs/bootstrap.svg?style=flat-square)](https://github.com/twbs/bootstrap/releases/latest)
+* [Atom ](https://atom.io/) [![GitHub release](https://img.shields.io/github/release/atom/atom.svg?style=flat-square)](https://github.com/atom/atom/releases/latest)
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/stockbrot/anotherone/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/stockbrot/anotherone/tags).
+
+## Authors
+
+* **Tanis Webb** - *Initial work* - [DoctorORBiT](https://github.com/stockbrot)
+
+See also the list of [contributors](https://github.com/stockbrot/anotherone/contributors) who participated in this project.
+
+## Donate
+
+* ETH: 0x5D28b0038756EE67CAc6eF003507B9E36745f0cF
+* DGB: D6VmxuuEDDxY2uSkMLUVS4GGXTEP8Xwnxu
+
+## Acknowledgments
+
+* [DeathPosion](https://github.com/DeathPoison)
+* [Shields.io](https://shields.io/)
