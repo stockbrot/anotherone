@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MasGUI</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.css">
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <!-- Custom Title Bar  -->
+  <div class="title-bar noselect">
+    <div class="title-bar-title"><a>Some App</a></div>
+    <div class="title-bar-btns">
+      <button id="min-btn"><i class="fas fa-minus"></i></button>
+      <button id="max-btn"><i class="far fa-square"></i></button>
+      <button id="close-btn"><i class="fas fa-times"></i></button>
+    </div>
+  </div>
+
+  <body class="scrollbar">
+    <h1>Hello World!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+
+    <script>
+      require('./js/vue.js')
+      require('./js/titlebar.js')
+    </script>
+  </body>
+</html>
